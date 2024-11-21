@@ -10,7 +10,7 @@ on:
       - '.github/workflows/**'
       - 'myConfig/**'
   schedule:
-    - cron: '05 1,2 * * *'
+    - cron: '05 1 * * *'
 
 env:
   TZ: Asia/Shanghai
